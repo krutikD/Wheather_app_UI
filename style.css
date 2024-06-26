@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap');
+body,html{
+font-family: 'poppins';
+margin: 0;
+height: 100%;
+}
+.bg{
+    background-image: url("./img/uplifting-rays-of-sunshine.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(20px);
+    -webkit-filter: blur(20px);
+
+}
+.container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.widget{
+    width:400px;
+    height: 200px;
+    border-radius:20px;
+    background: rgba(299,299,299,0.4);
+}
+.widget .left{
+    position: absolute;
+    left: 0;
+    width: 200px;
+}
+.widget .right{
+    position: absolute;
+    right: 0;
+    width: 200px;
+    color: #fff;
+    margin: 50px,0;
+}
+.icon{
+    width: 75%;
+    margin-bottom: -30px;
+    display: block;
+    margin-left: auto;
+}
+.weather-status{
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+}
+.widget .right .city {
+    font-size: 1em;
+    text-align:center;
+    margin: 0;
+    text-shadow: 1px 1px 5px #707070;
+}
+.widget .right .degree{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    text-shadow: 1px 1p 5px #707070;
+}
+    .widget .bottom{
+        width: 100%;
+        position:absolute;
+        bottom:10px;
+        display: flex;
+        justify-content:center;
+        color:#fff;
+    }
+    .widget .bottom div{
+        margin:5px 10px 5px 10px;
+        text-align:center;
+        line-height: 100%;
+        font-size:0.83em;
+        text-shadow: 1px 1px 5px #707070;
+    }
+    .bottom div span{
+        display: block;
+    }
